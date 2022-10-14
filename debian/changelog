@@ -1,0 +1,80 @@
+node-normalize-package-data (3.0.3+~2.4.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Add ctype=nodejs to component(s)
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * New upstream version 3.0.3+~2.4.1
+
+ -- Yadd <yadd@debian.org>  Mon, 27 Sep 2021 05:57:17 +0200
+
+node-normalize-package-data (3.0.0+~2.4.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Replace embedded hosted-git-info by dependency to node-hosted-git-info
+  * Embed @types/normalize-package-data
+  * New upstream version 3.0.0+~2.4.0
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 03 Nov 2020 17:51:43 +0100
+
+node-normalize-package-data (2.5.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 2.5.0
+  * Embed old hosted-git-info
+  * Update dependencies
+  * Update copyright
+  * Parallelize test
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 11 Mar 2020 18:35:58 +0100
+
+node-normalize-package-data (2.4.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 2.4.0
+  * Enable tests during build
+  * Bump debhelper compatibility level to 11
+  * Tighten dependencies
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Remove unnecessary testsuite field
+  * Change section to javascript and priority to optional
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Sep 2018 17:09:38 +0530
+
+node-normalize-package-data (2.3.5-2) unstable; urgency=medium
+
+  * Use autopkgtest Restrictions: allow-stderr instead of patch
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 14 Jan 2017 14:50:33 +0100
+
+node-normalize-package-data (2.3.5-1) unstable; urgency=medium
+
+  * New upstream version 2.3.5
+    Closes: #842824
+  * Depends:
+    - node-github-url-from-git
+    + node-hosted-git-info
+    + node-is-builtin-module
+    + node-validate-npm-package-license
+  * Autopkgtest setup
+  * Secure Vcs url
+  * debhelper 9
+  * Standards-Version 3.9.8
+  * Patch a test writing to stderr
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 01 Nov 2016 16:29:04 +0100
+
+node-normalize-package-data (0.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #721870)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 07 Sep 2013 16:33:32 +0200
