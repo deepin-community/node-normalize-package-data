@@ -1,5 +1,5 @@
 version=4
-opts=filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-normalize-package-data-$1.tar.gz/ \
+opts=filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-normalize-package-data-$1/ \
 https://github.com/meryn/normalize-package-data/tags .*/archive/.*/v?([\d\.]+).tar.gz group
 
 # It is not recommended use npmregistry. Please investigate more.
